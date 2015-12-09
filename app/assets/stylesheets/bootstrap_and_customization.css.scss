@@ -1,0 +1,20 @@
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+$font-family-sans-serif:'Shadows Into Light', cursive;
+$body-bg: #27ae60;
+$jumbotron-color:#000000;
+$jumbotron-bg:#2F4F4F;
+$btn-default-color:#000066;
+$btn-font-weight:dark;
+$btn-warning-border:darken(blue, 5%);
+$btn-default-bg:#A3B0C7;
+@import 'bootstrap';
+
+
+.center{
+	text-align: center;
+}
+
+.navbar-brand{
+	font-weight:bold;
+}
