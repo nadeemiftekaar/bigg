@@ -30,12 +30,14 @@ group :development, :test do
 gem 'sqlite3'
 end
 
+#group :production do
+#	gem 'pg'
+#	gem 'rails_12factor'
+#end
+
 group :production do
-	gem 'pg'
-	gem 'rails_12factor'
+  gem 'rails_12factor'
 end
-
-
 
   #  group: :doc do
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
