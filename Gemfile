@@ -25,8 +25,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0'
 
-group :development, :test do
-# Use sqlite3 as the database for Active Record
+group :development do
 gem 'sqlite3'
 end
 
@@ -36,9 +35,9 @@ end
 #end
 
 group :production do
+	gem 'pg'
   gem 'rails_12factor'
 end
 
   #  group: :doc do
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-#end
